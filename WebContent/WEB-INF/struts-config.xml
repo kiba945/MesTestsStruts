@@ -5,14 +5,16 @@
           "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
  
 <struts-config>
+
     <form-beans>
         <form-bean name="LoginForm"
             type="net.viralpatel.struts.helloworld.form.LoginForm" />
     </form-beans>
  
  
-    <global-exceptions>
-    </global-exceptions>
+    <global-exceptions></global-exceptions>
+    
+    
     <global-forwards></global-forwards>
  
     <action-mappings>
@@ -24,6 +26,6 @@
     </action-mappings>
  
      
-    <message-resources parameter="resource.MessageResource"></message-resources>
+    <message-resources parameter="resource..MessageResource"></message-resources>
      
 </struts-config>

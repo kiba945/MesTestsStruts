@@ -2,7 +2,6 @@
     <wb-module deploy-name="MesTestsStruts">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resource"/>
         <property name="context-root" value="MesTestsStruts"/>
         <property name="java-output-path" value="/MesTestsStruts/build/classes"/>
     </wb-module>
