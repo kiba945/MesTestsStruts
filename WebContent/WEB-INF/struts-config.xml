@@ -22,6 +22,7 @@
             type="net.viralpatel.struts.helloworld.action.LoginAction">
             <forward name="success" path="/welcome.jsp" />
             <forward name="failure" path="/index.jsp" />
+            <forward name="inscription" path="/inscription.jsp" />
         </action>
     </action-mappings>
  

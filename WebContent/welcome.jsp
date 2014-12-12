@@ -12,5 +12,7 @@
     %>
         <h1>Welcome <%= message %></h1>
      
+     	<a href="index.jsp"> Retour à l'index </a>
+     	
     </body>
 </html>
