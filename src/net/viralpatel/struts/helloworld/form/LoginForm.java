@@ -17,8 +17,7 @@ public class LoginForm extends ActionForm {
 	private String password;
 	private String submit;
 
-	public ActionErrors validate(ActionMapping mapping,
-			HttpServletRequest request) {
+	public ActionErrors validate(ActionMapping mapping,	HttpServletRequest request) {
 
 		ActionErrors actionErrors = new ActionErrors();
 
